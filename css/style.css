@@ -1,0 +1,71 @@
+body {
+  background-image: url(img/PFC.jpg);
+  background-position-y: -160px;
+  background-size: cover;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    display: inline-block;
+}
+
+#pierre {
+   padding: 240px;
+   position: relative;
+   left: 1000px;
+   top: -140px;
+   background-color: transparent;
+   border: none;
+   color: transparent;
+}
+
+#feuille {
+   background-color: transparent;
+   position: absolute;
+   left: 70px;
+   top: 330px;
+   color: transparent;
+   border: none;
+   padding: 200px 410px;
+}
+
+#ciseaux {
+   padding: 250px;
+   position: absolute;
+   left: 1000px;
+   top: 480px;
+   color: transparent;
+   border: none;
+   background-color: transparent;
+}
+
+#block-jeu {
+    display:block;
+}
+
+#statut-jeu {
+   padding: 10px;
+   position: absolute;
+   left: 930px;
+   top: 420px;
+   color: white;
+   border: 2px solid;
+   border-radius: 6px;
+   display: inline-block;
+}
+
+#feuille:focus {
+ outline: -webkit-focus-ring-color auto 0px;
+}
+
+#ciseaux:focus {
+ outline: -webkit-focus-ring-color auto 0px;
+}
+
+#pierre:focus {
+ outline: -webkit-focus-ring-color auto 0px;
+}
