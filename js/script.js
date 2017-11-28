@@ -1,3 +1,6 @@
+
+// Jeu du PFC
+
 var Afficheur = function(element) {
         var display = element; 
    
